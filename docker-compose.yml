@@ -25,6 +25,7 @@ services:
     depends_on:
       - spring1
       - spring2
+
     image: nginx
     ports:
       - "8000:80"
